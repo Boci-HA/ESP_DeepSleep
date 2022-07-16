@@ -25,8 +25,8 @@ MAX44009 light;
 #include "Adafruit_VEML6070.h"
 Adafruit_VEML6070 uv = Adafruit_VEML6070();
 // Config /////////////////////////////
-#define STASSID "SkyNet II"
-#define STAPSK  "19820730"
+#define STASSID "AP"
+#define STAPSK  "pass"
 const char* mqtt_server = "10.77.2.10";
 const int sleepSeconds = 60;
 #define BATT_LEVEL A0
